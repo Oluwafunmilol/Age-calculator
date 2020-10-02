@@ -6,6 +6,54 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <link rel="stylesheet" href="agecalc.css">
+    <header>
+
+    </header>
+    <main>
+        <div class="homepage" id="home">
+            <div class="welcome">
+                Welcome to 
+                <h1 class="heading">Age Calculator</h1>
+            </div>
+            <div class="button1" id="startButton">
+                <button class="button"> <h3>Start</h3></button>
+            </div>
+        </div>
+
+        <div class="formpage hidden" id="form">
+            <form action="" class="form">
+            <h1 class="topic">Age Calculator</h1>
+            <div class="input">
+                <input type="text" class="input1" name="" id="firstName" placeholder="Enter your name here..."  required/>
+            </div>
+            <div class="input">
+                <input type="number" class="input1" name="" id="lastName" placeholder="Enter your age here..." required/>
+           </div>
+
+            <div class="button1" id="submitButton">    
+                <button class = "button">
+                <h3>Submit</h3>
+                </button>
+           </div> 
+            </form >
+        </div>
+
+        <div class="resultpage hidden" id="result">
+            <h1 class="title">Age Calculator</h1>
+            <p class="pname">Name:</p>
+            <p class="pyears">You have lived.........days on earth.</p>
+            <div class="button1" id="resetButton">
+                <button class = "button">
+                <h3>Reset</h3>
+                </button>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="agecal.js"></script>
 </body>
 </html>
