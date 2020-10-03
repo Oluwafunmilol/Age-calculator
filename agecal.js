@@ -1,11 +1,11 @@
-const page1 = document.getElementById("home");
-const page2 = document.getElementById("form");
+const page1 = document.querySelector("#home");
+const page2 = document.querySelector("#form");
 const page3 = document.getElementById("result");
 const startButton = document.getElementById("startButton");
-const submitButton = document.getElementById("submitButton");
+const submitButton = document.querySelector(".button2");
 const resetButton = document.getElementById("resetButton");
-const displayName = document.getElementsByClassName("pnmae");
-const displayName = document.getElementsByClassName("pyears");
+const displayName = document.querySelector(".pnmae");
+const displayAge = document.querySelector('.pyears');
 
 
 startButton.addEventListener("click",function(){
@@ -13,14 +13,19 @@ startButton.addEventListener("click",function(){
     page1.classList.add("hidden");
 })
 
-submitButton.addEventListener("click",function(){
+submitButton.addEventListener("click",function(e){
+    e.preventDefault();
 
-    let name = document.getElementById("yourName").value;
-    let age = document.getElementById("yourName").value
-    let ageInDays = age * 365;
+    console.log('hello');
+    let name = document.querySelector(".input11").value;
+    let age = document.querySelector(".input2").value;
+    console.log(name,age);
+
+     let ageInDays = age * 365;
 
     if (name == "" || age == ""){
         alert("all fields required");
+        return;
     }
     else {
         displayName.textContent += name;
