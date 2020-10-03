@@ -6,10 +6,10 @@ A project that gives the numbers of days you have lived on earth.
 Name and age in years will be required to fill this form and all field must be inputed. 
 
 # Project screenshoot
-![This is an alt text](/readmeimg.png "This is a sample logo")
+![This is an alt text](/readmeimg.PNG "This is a sample logo")
 
 ## Link
-
+(https://github.com/Oluwafunmilol/Age-calculator.git)
 
 ### Built with
 HTML
@@ -17,7 +17,7 @@ CSS
 Java script
 
 # Live Demo
-This is alive demo
+This is alive demo(https://raw.githack.com/Oluwafunmilol/Age-calculator/master/age.html)
 
 # Author
 Olukowajo Funmilola Esther
